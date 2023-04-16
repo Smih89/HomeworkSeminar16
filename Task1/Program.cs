@@ -11,11 +11,11 @@ int count = 0;
 
 for (int i = 0; i < array.Length; i++)
 {
-  if (array[i].Length <= 3)
-  {
-    result[count] = array[i];
-    count++;
-  }
+    if (array[i].Length <= 3)
+    {
+        result[count] = array[i];
+        count++;
+    }
 }
-Console.WriteLine(string.Join(" ", result));
+Console.WriteLine(string.Join(" ",result));
 Console.ReadKey();
